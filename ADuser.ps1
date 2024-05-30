@@ -1,6 +1,6 @@
 Import-Module ActiveDirectory
 
-$CSVFile = "C:\Users\AdminDomainIRO.LATECH94\Desktop\AD.csv"
+$CSVFile = "Chemin du fichier csv"
 
 $CSVData = Import-CSV -Path $CSVFile -Delimiter ";" -Encoding UTF8
 
